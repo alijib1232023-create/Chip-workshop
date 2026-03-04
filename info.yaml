@@ -16,34 +16,34 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "inpout1"
+  ui[1]: "Rx"
+  ui[2]: "Mosi"
+  ui[3]: SCL""
+  ui[4]: SEG""
+  ui[5]: "TX"
+  ui[6]: "RX"
+  ui[7]: "OutPUT"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "00"
+  uo[1]: "01"
+  uo[2]: "10"
+  uo[3]: "11"
+  uo[4]: "101"
+  uo[5]: "110"
+  uo[6]: "011"
+  uo[7]: "111"
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  uio[0]: "a"
+  uio[1]: "b"
+  uio[2]: "c"
+  uio[3]: "e"
+  uio[4]: "d"
+  uio[5]: "s"
+  uio[6]: "w"
+  uio[7]: "g"
 
 # Do not change!
 yaml_version: 6
